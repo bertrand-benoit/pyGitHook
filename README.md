@@ -23,6 +23,6 @@ You must keep the same name, which corresponds to what Git awaits.
 ### Prevent merging between some branches
 **prepare-commit-msg** is what you need.
 
-You just need to adapt the constants at beginning of the script, to your needs.
+You just need to adapt the constants at beginning of the script.
 
 _Documentation will be updated soon_
