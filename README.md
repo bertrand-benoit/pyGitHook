@@ -1,4 +1,7 @@
 # pyGitHook
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21ad636cfd8f4b32b7e24a5ad72486cf)](https://app.codacy.com/app/bertrand-benoit/pyGitHook?utm_source=github.com&utm_medium=referral&utm_content=bertrand-benoit/pyGitHook&utm_campaign=Badge_Grade_Dashboard)
+
 This repository provides various useful Git Hooks written in Python.
 
 ## History
