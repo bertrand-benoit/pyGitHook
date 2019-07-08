@@ -1,4 +1,6 @@
 # pyGitHook
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21ad636cfd8f4b32b7e24a5ad72486cf)](https://app.codacy.com/app/bertrand-benoit/pyGitHook?utm_source=github.com&utm_medium=referral&utm_content=bertrand-benoit/pyGitHook&utm_campaign=Badge_Grade_Dashboard)
+
 This repository provides various useful Git Hooks written in Python.
 
 ## History
@@ -11,9 +13,9 @@ If you need to learn Git Hook, check the [official Git Book](https://git-scm.com
 
 You can easily integrate with various code hosting platform, for instance:
 
- - [GitHub](https://developer.github.com/webhooks/)
- - [GitLab](https://docs.gitlab.com/ee/administration/custom_hooks.html)
- - [BitBucket](https://confluence.atlassian.com/bitbucketserver/using-repository-hooks-776639836.html)
+-   [GitHub](https://developer.github.com/webhooks/)
+-   [GitLab](https://docs.gitlab.com/ee/administration/custom_hooks.html)
+-   [BitBucket](https://confluence.atlassian.com/bitbucketserver/using-repository-hooks-776639836.html)
 
 ## Usage
 To fit [PEP8](https://www.python.org/dev/peps/pep-0008) Style Guide, file name uses `_` instead of `-`, and `.py` extension.
@@ -26,8 +28,8 @@ When moving file to your **.git/hooks/** sub-directory, you then must rename the
 For this feature, you need the **prepare_commit_msg.py** hook.
 
 Installation:
- - copy file to the **.git/hooks/** sub-directory of your repository, and rename it to **prepare-commit-msg**
- - edit configuration at beginning of the hook to match your source/destination branches rules
+-   copy file to the **.git/hooks/** sub-directory of your repository, and rename it to **prepare-commit-msg**
+-   edit configuration at beginning of the hook to match your source/destination branches rules
 
 ## Contributing
 Don't hesitate to [contribute](https://opensource.guide/how-to-contribute/) or to contact me if you want to improve the project.
