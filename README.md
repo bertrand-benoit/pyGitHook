@@ -16,13 +16,29 @@ You can easily integrate with various code hosting platform, for instance:
  - [BitBucket](https://confluence.atlassian.com/bitbucketserver/using-repository-hooks-776639836.html)
 
 ## Usage
-You just need to download the hook(s) you want, and put them in the .git/hooks/ sub-directory of your repository.
+To fit [PEP8](https://www.python.org/dev/peps/pep-0008) Style Guide, file name uses `_` instead of `-`, and `.py` extension.
 
-You must keep the same name, which corresponds to what Git awaits.
+You just need to download the hook(s) you want, and put them in the **.git/hooks/** sub-directory of your repository.
+
+When moving file to your **.git/hooks/** sub-directory, you then must rename the file accordingly, to fit what Git awaits.
 
 ### Prevent merging between some branches
-**prepare-commit-msg** is what you need.
+For this feature, you need the **prepare_commit_msg.py** hook.
 
-You just need to adapt the constants at beginning of the script.
+Installation:
+ - copy file to the **.git/hooks/** sub-directory of your repository, and rename it to **prepare-commit-msg**
+ - edit configuration at beginning of the hook to match your source/destination branches rules
 
-_Documentation will be updated soon_
+## Contributing
+Don't hesitate to [contribute](https://opensource.guide/how-to-contribute/) or to contact me if you want to improve the project.
+
+You can [report issues or request features](https://github.com/bertrand-benoit/pyGitHook/issues) and propose [pull requests](https://github.com/bertrand-benoit/pyGitHook/pulls).
+
+## Versioning
+The versioning scheme we use is [SemVer](http://semver.org/).
+
+## Authors
+[Bertrand BENOIT](mailto:contact@bertrand-benoit.net)
+
+## License
+This project is under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
