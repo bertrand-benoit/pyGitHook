@@ -1,5 +1,7 @@
+:warning: This project is now hosted on [Gitlab](https://gitlab.com/bertrand-benoit/pyGitHook); switch to it to get newer versions.
+
 # pyGitHook
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21ad636cfd8f4b32b7e24a5ad72486cf)](https://app.codacy.com/app/bertrand-benoit/pyGitHook?utm_source=github.com&utm_medium=referral&utm_content=bertrand-benoit/pyGitHook&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c849e832c8a4656ad983a7277227437)](https://www.codacy.com/manual/gitlabRepositories/pyGitHook_2?utm_source=gitlab.com&amp;utm_medium=referral&amp;utm_content=bertrand-benoit/pyGitHook&amp;utm_campaign=Badge_Grade)
 
 This repository provides various useful Git Hooks written in Python.
 
@@ -34,7 +36,7 @@ Installation:
 ## Contributing
 Don't hesitate to [contribute](https://opensource.guide/how-to-contribute/) or to contact me if you want to improve the project.
 
-You can [report issues or request features](https://github.com/bertrand-benoit/pyGitHook/issues) and propose [pull requests](https://github.com/bertrand-benoit/pyGitHook/pulls).
+You can [report issues or request features](https://gitlab.com/bertrand-benoit/pyGitHook/issues) and propose [merge requests](https://gitlab.com/bertrand-benoit/pyGitHook/merge_requests).
 
 ## Versioning
 The versioning scheme we use is [SemVer](http://semver.org/).
